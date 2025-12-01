@@ -68,7 +68,7 @@ DineFlow is a full-stack application for restaurants and cafes that allows custo
 
 
 
-\\# Features
+# Features
 
 Online Orders – Customers can place and track orders in real time.
 
