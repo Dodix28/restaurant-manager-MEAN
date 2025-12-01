@@ -1,8 +1,8 @@
-\\# DineFlow
+# DineFlow
 
 
 
-\\\*Online orders, reservations, and real-time table management for restaurants and cafes.\\\*
+Online orders, reservations, and real-time table management for restaurants and cafes.
 
 
 
@@ -18,7 +18,7 @@
 
 
 
-\\# Description
+# Description
 
 
 
@@ -36,7 +36,7 @@ DineFlow is a full-stack application for restaurants and cafes that allows custo
 
 
 
-\\# Technologies
+# Technologies
 
 
 
