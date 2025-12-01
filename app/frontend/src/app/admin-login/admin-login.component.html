@@ -1,0 +1,13 @@
+<h4>Ulogujte se</h4>
+<hr />
+<form>
+  Korisnicko ime:   <input type='text' name='kor_ime' [(ngModel)]='kor_ime'> <br/>
+  Lozinka:  <input type='password' name='lozinka' [(ngModel)]='lozinka'> <br/>
+  <input type='button' value='Prijava' (click)='prijavaNaSistem()'> <br/>
+</form>
+<span class='greska'>{{porukaLogin}}</span>
+
+<hr/>
+
+<h4>Promenite lozinku:</h4>
+<button (click)="promeniLozinku()">Promeni lozinku </button>

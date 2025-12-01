@@ -1,0 +1,33 @@
+<h3>Dostave na cekanju</h3>
+
+<table>
+  <tr>
+    <th>Naziv</th>
+    <th>Stavke</th>
+    <th>Status</th>
+    <th>Vreme Dostave</th>
+    <th>Prihvati porudzbinu</th>
+    <th>Odbij porudzbinu</th>
+  </tr>
+
+  <tr *ngFor="let d of naCekanju">
+    <td>{{d.nazivR}}</td>
+    <td>
+      <ul>
+        <li *ngFor="let stavka of d.stavke">{{stavka.naziv}} {{stavka.kolicina}}</li>
+      </ul>
+    </td>
+    <td>{{d.status}}</td>
+    <td>
+      <select [(ngModel)]="d.vremeDostave">
+        <option value="20-30">20-30 min</option>
+         <option value="30-40">30-40 min</option>
+        <option value="50-60">50-60 min</option>
+      </select>
+    </td>
+    <td><button (click)="prihvati(d)">Prihvati</button></td>
+    <td><button (click)="odbij(d.idD)">Odbij</button></td>
+  </tr>
+</table>
+<br/>
+<span class="greska">{{poruka}}</span>

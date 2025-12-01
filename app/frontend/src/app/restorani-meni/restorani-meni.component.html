@@ -1,0 +1,38 @@
+<input type="text" placeholder="Pretraži restorane" [(ngModel)]="pretraga">
+<button (click)="pretrazi()">Pretraži</button> <br/>
+<button (click)="prikaziSve()">Prikazi sve </button> <br/>
+
+
+<table>
+  <tr>
+    <th>Naziv</th>
+    <th>Adresa</th>
+    <th>Tip</th>
+    <th>Konobari</th>
+  </tr>
+  <tr *ngFor="let r of prikazaniRestorani">
+    <td><a (click)="posetiRestoran(r.idR)" routerLink="/restoran">{{r.naziv}}</a></td>
+    <td>{{r.adresa}}</td>
+    <td>{{r.tip}}</td>
+    <td>
+      <ul>
+        <li *ngFor="let konobar of r.konobari">{{ konobar.ime }} {{ konobar.prezime }}</li>
+      </ul>
+    </td>
+  </tr>
+</table> <br/>
+
+<select [(ngModel)]="sortOption">
+  <option value="nazivRastuce">Sortiraj po nazivu rastuće</option>
+  <option value="nazivOpadajuce">Sortiraj po nazivu opadajuće</option>
+
+  <option value="adresaRastuce">Sortiraj po adresi rastuće</option>
+  <option value="adresaOpadajuce">Sortiraj po adresi opadajuće</option>
+
+  <option value="tipRastuce">Sortiraj po tipu rastuće</option>
+  <option value="tipOpadajuce">Sortiraj po tipu opadajuće</option>
+</select>
+<button (click)=" sortiraj()">Sortiraj</button>
+<br/>
+<span class="greska">{{porukaGreske}}</span>
+

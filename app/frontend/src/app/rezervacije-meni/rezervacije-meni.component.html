@@ -1,0 +1,40 @@
+<h3>Aktuelne rezervacije:</h3>
+
+<table>
+  <tr>
+    <th>Datum</th>
+    <th>Vreme</th>
+    <th>Status</th>
+    <th>Restoran</th>
+    <th>Adresa</th>
+  </tr>
+  <tr *ngFor="let r of aktuelneRezervacije">
+    <td>{{r.datum}}</td>
+    <td>{{r.vreme}}</td>
+    <td>{{r.status}}</td>
+    <td>{{r.nazivR}}</td>
+    <td>{{r.adresaR}}</td>
+  </tr>
+</table>
+
+<br/>
+<br/>
+<br/>
+<h3>Istekle rezervacije:</h3>
+
+<table>
+  <tr>
+    <th>Datum</th>
+    <th>Vreme</th>
+    <th>Status</th>
+    <th>Restoran</th>
+    <th>Adresa</th>
+  </tr>
+  <tr *ngFor="let r of istekleRezervacije">
+    <td>{{r.datum}}</td>
+    <td>{{r.vreme}}</td>
+    <td>{{r.status}}</td>
+    <td>{{r.nazivR}}</td>
+    <td>{{r.adresaR}}</td>
+  </tr>
+</table>

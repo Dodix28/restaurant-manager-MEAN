@@ -1,0 +1,60 @@
+<h3>Informacije o odabranom restoranu:</h3>
+Naziv :{{selectedRestaurant.naziv}} <br/>
+Adresa: {{selectedRestaurant.adresa}} <br/>
+Tip: {{selectedRestaurant.tip}} <br/>
+Telefon: {{selectedRestaurant.kontakt}} <br/>
+<hr/>
+<button (click)="odjava()">Odjavi se</button>
+&nbsp;
+<button (click)="nazad()">Nazad na prethodnu stranicu</button>
+<hr/>
+
+<h3>Jelovnik restorana</h3>
+<table>
+  <tr>
+   <th>Naziv</th>
+   <th>Cena</th>
+   <th>Sastojci</th>
+   <th>Slika</th>
+   <th>Kolicina</th>
+
+  </tr>
+  <tr *ngFor="let j of jelovnik">
+    <td>{{j.naziv}}</td>
+    <td>{{j.cena}}</td>
+    <td>{{j.sastojci}}</td>
+    <td>
+      <div>
+        <img [src]=" 'http://localhost:4000/uploads/' +j.slika" height="100px" width="100px" alt="Jelo">
+      </div>
+    </td>
+    <td><input type="number" name="kolicina"  [(ngModel)]="j.kolicina" required min=1 max=10></td>
+    <td><button (click)="dodajUKorpu(j)">Dodaj u korpu</button></td>
+  </tr>
+</table> <br/>
+<span class="greska">{{poruka}}</span> <br/>
+<span class="greska">{{porukaGreske}}</span>
+
+<hr/>
+<h4>Pregled korpe:</h4>
+<table>
+  <tr>
+    <th>Naziv jela</th>
+    <th>Narucena kolicina</th>
+  </tr>
+  <tr *ngFor="let j of mojaKorpa.stavke">
+    <td>{{j.naziv}}</td>
+    <td>{{j.kolicina}}</td>
+  </tr>
+</table> <br/>
+<button (click)="zavrsiPorudzbinu()">Zavrsi porudzbinu</button>
+
+<hr/>
+<h3>Napravi rezervaciju stola:</h3>
+    Datum: <input type="date" id="date" name="date" [(ngModel)]="datum" required> <br/>
+    Vreme: <input type="time" id="time" name="time" [(ngModel)]="vreme" required> <br/>
+    Broj osoba: <input type="number" id="guests" name="guests" [(ngModel)]="brojOsoba" required> <br/>
+    Napomena: <textarea id="note" name="note" [(ngModel)]="napomena"></textarea> <br/>
+
+    <button (click)=" rezervisi()">Rezervisi</button>
+

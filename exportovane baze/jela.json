@@ -1,0 +1,60 @@
+[{
+  "_id": {
+    "$oid": "66883d4ceb2b98dd37125c1d"
+  },
+  "idJ": 1,
+  "naziv": "Potaz",
+  "slika": "potaz.jpg",
+  "cena": 800,
+  "sastojci": "krompir,paprika,paradajz"
+},
+{
+  "_id": {
+    "$oid": "66883d4ceb2b98dd37125c1e"
+  },
+  "idJ": 2,
+  "naziv": "Torta",
+  "slika": "torta.jpg",
+  "cena": 400,
+  "sastojci": "jagode,keks,cokolada"
+},
+{
+  "_id": {
+    "$oid": "66883d4ceb2b98dd37125c1f"
+  },
+  "idJ": 3,
+  "naziv": "Teleca corba",
+  "slika": "teleca_corba.jpg",
+  "cena": 800,
+  "sastojci": "meso,paprika,paradajz"
+},
+{
+  "_id": {
+    "$oid": "66883d4ceb2b98dd37125c20"
+  },
+  "idJ": 4,
+  "naziv": "Karadjordjeva snicla",
+  "slika": "karadjordjeva.jpg",
+  "cena": 1200,
+  "sastojci": "meso,kackavalj,sunka"
+},
+{
+  "_id": {
+    "$oid": "66883d4ceb2b98dd37125c21"
+  },
+  "idJ": 5,
+  "naziv": "Sendvic",
+  "slika": "sendvic.jpg",
+  "cena": 500,
+  "sastojci": "jaje,sunka,paradajz"
+},
+{
+  "_id": {
+    "$oid": "66883d4ceb2b98dd37125c22"
+  },
+  "idJ": 6,
+  "naziv": "Pomfrit",
+  "slika": "pomfrit.jpg",
+  "cena": 300,
+  "sastojci": "krompir"
+}]

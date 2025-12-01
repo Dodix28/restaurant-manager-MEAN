@@ -1,0 +1,163 @@
+[{
+  "_id": {
+    "$oid": "6686a152eb2b98dd37125be1"
+  },
+  "ime": "Petar",
+  "prezime": "Petrovic",
+  "kor_ime": "pera",
+  "lozinka": "pera123",
+  "tip": "radnik",
+  "mejl": "pera@mail.com",
+  "pol": "M",
+  "adresa": "Borca",
+  "kontakt": "0656234480",
+  "brKartice": "1234567891234569",
+  "profilna": "default.jpg"
+},
+{
+  "_id": {
+    "$oid": "6686a152eb2b98dd37125be2"
+  },
+  "ime": "Milica",
+  "prezime": "Doderovic",
+  "kor_ime": "dodi",
+  "lozinka": "Dodi123!",
+  "tip": "gost",
+  "mejl": "dodi@gmail.com",
+  "pol": "Z",
+  "adresa": "Aleksandra Belica 7",
+  "kontakt": "0656234480",
+  "brKartice": "841005622300",
+  "profilna": "emoji1.jpg"
+},
+{
+  "_id": {
+    "$oid": "6686a152eb2b98dd37125be3"
+  },
+  "ime": "Ana",
+  "prezime": "Ankovic",
+  "kor_ime": "ana",
+  "lozinka": "ana123",
+  "tip": "radnik",
+  "mejl": "ana@mail.com",
+  "pol": "Z",
+  "adresa": "Zvezdara 3",
+  "kontakt": "0656234480",
+  "brKartice": "841005622300",
+  "profilna": "default.jpg"
+},
+{
+  "_id": {
+    "$oid": "6686a152eb2b98dd37125be4"
+  },
+  "ime": "Mika",
+  "prezime": "Mikic",
+  "kor_ime": "mika",
+  "lozinka": "mika123",
+  "tip": "gost",
+  "mejl": "mika@mail.com",
+  "pol": "M",
+  "adresa": "Palilula 3",
+  "kontakt": "0644599877",
+  "brKartice": "841005622300",
+  "profilna": "default.jpg"
+},
+{
+  "_id": {
+    "$oid": "6686a152eb2b98dd37125be5"
+  },
+  "ime": "Miljan",
+  "prezime": "Doderovic",
+  "kor_ime": "micun",
+  "lozinka": "micun123",
+  "tip": "radnik",
+  "mejl": "micun@mail.com",
+  "pol": "M",
+  "adresa": "Aleksandra Belica 7",
+  "kontakt": "0656234480",
+  "brKartice": "841005622300",
+  "profilna": "GoodFeeling_gruen-200x200px-4 (1).jpg"
+},
+{
+  "_id": {
+    "$oid": "6686a152eb2b98dd37125be6"
+  },
+  "ime": "Danilo",
+  "prezime": "Doderovic",
+  "kor_ime": "dan",
+  "lozinka": "Danilo123!",
+  "tip": "admin",
+  "mejl": "dan@gmail.com",
+  "pol": "M",
+  "adresa": "Aleksandra Belica 7",
+  "kontakt": "0656234480",
+  "brKartice": "841005622300",
+  "profilna": "default.jpg"
+},
+{
+  "_id": {
+    "$oid": "6686a152eb2b98dd37125be7"
+  },
+  "ime": "Jovanica",
+  "prezime": "Stanojkovic",
+  "kor_ime": "jole",
+  "lozinka": "jole123",
+  "tip": "radnik",
+  "mejl": "jole@gmail.com",
+  "pol": "Z",
+  "adresa": "Mirijevo city",
+  "kontakt": "0656234480",
+  "brKartice": "841005622300",
+  "profilna": "crna_zena.png"
+},
+{
+  "_id": {
+    "$oid": "668a5f95cf8339486bff9526"
+  },
+  "ime": "Lazar",
+  "prezime": "Lazarevic",
+  "kor_ime": "laza",
+  "lozinka": "laza123",
+  "mejl": "laza@mail.com",
+  "tip": "gost",
+  "pol": "M",
+  "adresa": "Zvezdara",
+  "kontakt": "0656234480",
+  "brKartice": "06562344805645",
+  "profilna": "default.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668a6b3f7b7a664113a76450"
+  },
+  "ime": "Ciki",
+  "prezime": "Cikic",
+  "kor_ime": "cile",
+  "lozinka": "Cile123!",
+  "mejl": "ciki@gmail.com",
+  "tip": "radnik",
+  "pol": "M",
+  "adresa": "Diznilend",
+  "kontakt": "0656234480",
+  "brKartice": "",
+  "profilna": "default.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668a6fab7b7a664113a7646b"
+  },
+  "ime": "Nini",
+  "prezime": "Ninic",
+  "kor_ime": "nini",
+  "lozinka": "Nini123!",
+  "mejl": "nini@gmail.com",
+  "tip": "gost",
+  "pol": "Z",
+  "adresa": "Diznilend",
+  "kontakt": "0656234480",
+  "brKartice": "1234567891234569",
+  "profilna": "crna_zena.png",
+  "__v": 0
+}]

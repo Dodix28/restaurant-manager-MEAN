@@ -1,0 +1,15 @@
+<h3>Aktuelne dostave</h3>
+
+<table>
+  <tr>
+    <th>Naziv resorana</th>
+    <th>Status</th>
+    <th>Vreme</th>
+  </tr>
+  <tr *ngFor="let d of aktuelneDostave">
+    <td>{{d.nazivR}}</td>
+    <td>{{d.status}}</td>
+    <td>{{d.vremeDostave}}</td>
+  </tr>
+</table>
+{{poruka}}

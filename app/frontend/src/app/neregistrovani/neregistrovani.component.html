@@ -1,0 +1,62 @@
+<b>Vratite se na pocetnu stranicu:</b> <br/>
+<button (click)="pocetna()">Pocetna</button>
+<hr/>
+
+<b>Osnovne informacije:</b> <br/>
+<table style="max-width: 500px;">
+  <tr>
+    <th>Ukupan broj restorana: </th>
+    <th>Ukupan broj registrovanih korisnika(gostiju): </th>
+    <th>Broj rezervacija u proteklih 24h: </th>
+    <th>Broj rezervacija u proteklih 7 dana: </th>
+    <th>Broj rezervacija u proteklih mesec dana: </th>
+  </tr>
+  <tr>
+    <td>{{sviRestorani.length}}</td>
+    <td>{{sviKorisnici.length}}</td>
+    <td>{{rez24h.length}}</td>
+    <td>{{rezSedamDana.length}}</td>
+    <td>{{rezMesecDana.length}}</td>
+  </tr>
+</table>
+
+<hr/>
+<input type="text" placeholder="Pretraži restorane" [(ngModel)]="pretraga">
+<button (click)="pretrazi()">Pretraži</button> <br/>
+<button (click)="prikaziSve()">Prikazi sve </button>
+
+<table>
+  <tr>
+    <th>Naziv</th>
+    <th>Adresa</th>
+    <th>Tip</th>
+    <th>Konobari</th>
+  </tr>
+  <tr *ngFor="let r of prikazaniRestorani">
+    <td>{{r.naziv}}</td>
+    <td>{{r.adresa}}</td>
+    <td>{{r.tip}}</td>
+    <td>
+      <ul>
+        <li *ngFor="let konobar of r.konobari">{{konobar.ime}} {{konobar.prezime}}</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+<br/>
+<select [(ngModel)]="sortOption">
+  <option value="nazivRastuce">Sortiraj po nazivu rastuće</option>
+  <option value="nazivOpadajuce">Sortiraj po nazivu opadajuće</option>
+
+  <option value="adresaRastuce">Sortiraj po adresi rastuće</option>
+  <option value="adresaOpadajuce">Sortiraj po adresi opadajuće</option>
+
+  <option value="tipRastuce">Sortiraj po tipu rastuće</option>
+  <option value="tipOpadajuce">Sortiraj po tipu opadajuće</option>
+</select>
+<button (click)=" sortiraj()">Sortiraj</button>
+<br/>
+<span class="greska">{{porukaGreske}}</span>
+
+
+

@@ -1,0 +1,16 @@
+{
+    "stolovi": [
+      { "id": 1, "x": 500, "y": 50, "radius": 30, "maxLjudi": 4, "slobodan": true },
+      { "id": 2, "x": 600, "y": 50, "radius": 30, "maxLjudi": 4, "slobodan": true },
+      { "id": 3, "x": 500, "y": 150, "radius": 30, "maxLjudi": 4, "slobodan": true },
+      { "id": 4, "x": 600, "y": 150, "radius": 30, "maxLjudi": 4, "slobodan": true },
+      { "id": 5, "x": 500, "y": 250, "radius": 30, "maxLjudi": 4, "slobodan": true },
+      { "id": 6, "x": 600, "y": 250, "radius": 30, "maxLjudi": 4, "slobodan": true }
+    ],
+    "kuhinje": [
+      { "id": 1, "x": 50, "y": 50, "width": 200, "height": 100 }
+    ],
+    "toaleti": [
+      { "id": 1, "x": 50, "y": 200, "width": 100, "height": 50 }
+    ]
+  }

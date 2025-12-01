@@ -1,0 +1,112 @@
+[{
+  "_id": {
+    "$oid": "6689a3c5eb2b98dd37125c89"
+  },
+  "idRez": 1,
+  "kor_ime": "dodi",
+  "datum": "24-05-2024",
+  "vreme": "18:00",
+  "brOsoba": 3,
+  "opis": "dodatan opis",
+  "status": "na cekanju",
+  "idR": 2,
+  "porukaRadnika": "",
+  "idSto": 0,
+  "radnik_kor_ime": ""
+},
+{
+  "_id": {
+    "$oid": "6689a3c5eb2b98dd37125c8a"
+  },
+  "idRez": 2,
+  "kor_ime": "dodi",
+  "datum": "24-05-2024",
+  "vreme": "18:00",
+  "brOsoba": 4,
+  "opis": "dodatan opis",
+  "status": "aktuelno",
+  "idR": 2,
+  "porukaRadnika": "",
+  "idSto": 3,
+  "radnik_kor_ime": "micun"
+},
+{
+  "_id": {
+    "$oid": "6689a3c5eb2b98dd37125c8b"
+  },
+  "idRez": 3,
+  "kor_ime": "ana",
+  "datum": "24-05-2024",
+  "vreme": "18:00",
+  "brOsoba": 4,
+  "opis": "dodatan opis",
+  "status": "istekla",
+  "idR": 1,
+  "porukaRadnika": "",
+  "idSto": 5,
+  "radnik_kor_ime": ""
+},
+{
+  "_id": {
+    "$oid": "6689a3c5eb2b98dd37125c8c"
+  },
+  "idRez": 4,
+  "kor_ime": "dodi",
+  "datum": "24-05-2024",
+  "vreme": "18:00",
+  "brOsoba": 4,
+  "opis": "dodatan opis",
+  "status": "na cekanju",
+  "idR": 2,
+  "porukaRadnika": "",
+  "idSto": 0,
+  "radnik_kor_ime": ""
+},
+{
+  "_id": {
+    "$oid": "6689a3c5eb2b98dd37125c8d"
+  },
+  "idRez": 5,
+  "kor_ime": "dodi",
+  "datum": "24-05-2024",
+  "vreme": "18:00",
+  "brOsoba": 4,
+  "opis": "dodatan opis",
+  "status": "aktuelno",
+  "idR": 4,
+  "porukaRadnika": "",
+  "idSto": 5,
+  "radnik_kor_ime": "micun"
+},
+{
+  "_id": {
+    "$oid": "6689a3c5eb2b98dd37125c8e"
+  },
+  "idRez": 6,
+  "kor_ime": "dodi",
+  "datum": "24-05-2024",
+  "vreme": "18:00",
+  "brOsoba": 3,
+  "opis": "dodatan opis",
+  "status": "aktuelno",
+  "idR": 2,
+  "porukaRadnika": "",
+  "idSto": 2,
+  "radnik_kor_ime": "micun"
+},
+{
+  "_id": {
+    "$oid": "6689a3c5eb2b98dd37125c8f"
+  },
+  "idRez": 7,
+  "kor_ime": "dodi",
+  "datum": "24-05-2024",
+  "vreme": "18:00",
+  "brOsoba": 4,
+  "opis": "dodatan opis",
+  "status": "aktuelno",
+  "idR": 2,
+  "porukaRadnika": "",
+  "idSto": 1,
+  "radnik_kor_ime": "micun"
+}]

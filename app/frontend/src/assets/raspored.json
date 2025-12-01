@@ -1,0 +1,10 @@
+{
+  "idRaspored": "3",
+  "stolovi": [
+    { "id": "sto1", "x": 100, "y": 100, "radius": 30, "maxLjudi": 4 },
+    { "id": "sto2", "x": 200, "y": 100, "radius": 30, "maxLjudi": 4 },
+    { "id": "sto3", "x": 300, "y": 100, "radius": 30, "maxLjudi": 4 }
+  ],
+  "kuhinja": { "id": "kuhinja1", "x": 400, "y": 200, "width": 100, "height": 50 },
+  "toalet": { "id": "toalet1", "x": 50, "y": 300, "width": 100, "height": 50 }
+}

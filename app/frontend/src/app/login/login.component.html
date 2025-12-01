@@ -1,0 +1,56 @@
+
+
+
+
+
+    <h5>Ulogujte se</h5>
+    <form>
+      Korisnicko ime:   <input type='text' name='kor_ime' [(ngModel)]='kor_ime'> <br/>
+      Lozinka:  <input type='password' name='lozinka' [(ngModel)]='lozinka'> <br/>
+      <input type='button' value='Prijava' (click)='prijavaNaSistem()'> <br/>
+    </form>
+    <span class='greska'>{{porukaLogin}}</span>
+
+
+
+    <hr/>
+
+    <h5>Promenite lozinku:</h5>
+    <button (click)="promeniLozinku()">Promeni lozinku </button>
+
+
+    <hr/>
+
+
+    <h5>Registracija (za gosta):</h5>
+    <form>
+    Korisnicko ime:   <input type='text' name='kor_ime' [(ngModel)]='kor_ime_reg'> <br/>
+    Lozinka:  <input type='password' name='lozinka' [(ngModel)]='lozinka_reg'> <br/>
+    Mejl:  <input type='text' name='mejl' [(ngModel)]='mejl_reg'> <br/>
+    Ime:  <input type='text' name='ime' [(ngModel)]='ime_reg'> <br/>
+    Prezime:  <input type='text' name='prezime' [(ngModel)]='prezime_reg'> <br/>
+    Pol:
+    <select [(ngModel)]="pol_reg" name="pol">
+      <option value="M" >M</option>
+      <option value="Z" >Z</option>
+    </select> <br/>
+    Adresa:  <input type='text' name='adresa' [(ngModel)]='adresa_reg'> <br/>
+    Kontakt telefon:  <input type='text' name='kontakt' [(ngModel)]='kontakt_reg'> <br/>
+    Broj Kreditne kartice:  <input type='text' name='kartica' [(ngModel)]='kartica_reg'> <br/>
+    Profinla fotografija: <input type="file" id="image" (change)="selectFile($event)" name="image"  accept=".png, .jpg"> <br/>
+    <button (click)='registracija()'> Registruj se</button> <br/>
+    </form>
+    <span class='greska'>{{porukaReg}}</span> <br/>
+    <span class='greska'>{{porukaFormatLozinka}}</span> <br/>
+    <span class='greska'>{{porukaFormatMejl}}</span> <br/>
+    <span class='greska'>{{porukaFormatKontakt}}</span> <br/>
+    <span class='greska'>{{porukaFormatKartica}}</span> <br/>
+
+    <hr/>
+
+
+    <h6>Ne morate se registrovati, nastavite kao neregistrovani korisnik!</h6>
+      <button (click)="nastaviKaoNeregistrovani()">Nastavi</button>
+
+
+

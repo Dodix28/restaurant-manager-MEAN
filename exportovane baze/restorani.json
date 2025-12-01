@@ -1,0 +1,185 @@
+[{
+  "_id": {
+    "$oid": "66899a85eb2b98dd37125c7c"
+  },
+  "naziv": "Vouz-le-vouz",
+  "adresa": "Vracar",
+  "tip": "italijanski",
+  "opis": "Mi smo italijanski restoran na Vracaru",
+  "konobari": [
+    {
+      "kor_ime": "jole",
+      "ime": "Jovanica",
+      "prezime": "Stanojkovic"
+    },
+    {
+      " kor_ime": "pera",
+      "ime": "Petar",
+      "prezime": "Petrovic"
+    }
+  ],
+  "idR": 1,
+  "kontakt": "0656234480",
+  "jelovnik": [
+    {
+      "idJ": 1
+    },
+    {
+      "idJ": 2
+    },
+    {
+      "idJ": 3
+    }
+  ],
+  "idRaspored": 1
+},
+{
+  "_id": {
+    "$oid": "66899a85eb2b98dd37125c7d"
+  },
+  "naziv": "Vapiano",
+  "adresa": "Stari grad",
+  "tip": "italijanski",
+  "opis": "Mi smo Vapiano",
+  "konobari": [
+    {
+      "kor_ime": "micun",
+      "ime": "Miljan",
+      "prezime": "Doderovic"
+    }
+  ],
+  "idR": 2,
+  "kontakt": "0656234480",
+  "jelovnik": [
+    {
+      "idJ": 1
+    },
+    {
+      "idJ": 4
+    },
+    {
+      "idJ": 3
+    }
+  ],
+  "idRaspored": 2
+},
+{
+  "_id": {
+    "$oid": "66899a85eb2b98dd37125c7e"
+  },
+  "naziv": "Piatakia",
+  "adresa": "Zemun",
+  "tip": "domaca kuhinja",
+  "opis": "Mi smo Piatakia",
+  "konobari": [
+    {
+      "kor_ime": "ana",
+      "ime": "",
+      "prezime": ""
+    }
+  ],
+  "idR": 3,
+  "kontakt": "0656234480",
+  "jelovnik": [
+    {
+      "idJ": 4
+    },
+    {
+      "idJ": 2
+    },
+    {
+      "idJ": 3
+    }
+  ],
+  "idRaspored": 1
+},
+{
+  "_id": {
+    "$oid": "66899a85eb2b98dd37125c7f"
+  },
+  "naziv": "Dva jelena",
+  "adresa": "Vracar",
+  "tip": "domaca kuhinja",
+  "opis": "Mi smo Dva jelena",
+  "konobari": [
+    {
+      "kor_ime": "",
+      "ime": "",
+      "prezime": ""
+    }
+  ],
+  "idR": 4,
+  "kontakt": "0656234480",
+  "jelovnik": [
+    {
+      "idJ": 5
+    },
+    {
+      "idJ": 2
+    },
+    {
+      "idJ": 4
+    }
+  ],
+  "idRaspored": 1
+},
+{
+  "_id": {
+    "$oid": "66899a85eb2b98dd37125c80"
+  },
+  "naziv": "Sesir moj",
+  "adresa": "Dorcol",
+  "tip": "etno",
+  "opis": "Mi smo sesir moj",
+  "konobari": [
+    {
+      "kor_ime": "",
+      "ime": "",
+      "prezime": ""
+    }
+  ],
+  "idR": 5,
+  "kontakt": "0656234480",
+  "jelovnik": [
+    {
+      "idJ": 1
+    },
+    {
+      "idJ": 5
+    },
+    {
+      "idJ": 3
+    }
+  ],
+  "idRaspored": 3
+},
+{
+  "_id": {
+    "$oid": "66899a85eb2b98dd37125c81"
+  },
+  "naziv": "Tri sesira",
+  "adresa": "Zvezdara",
+  "tip": "etno",
+  "opis": "Mi smo tri sesira",
+  "konobari": [
+    {
+      "kor_ime": "",
+      "ime": "",
+      "prezime": ""
+    }
+  ],
+  "idR": 6,
+  "kontakt": "0656234480",
+  "jelovnik": [
+    {
+      "idJ": 4
+    },
+    {
+      "idJ": 5
+    },
+    {
+      "idJ": 3
+    }
+  ],
+  "idRaspored": 2
+}]

@@ -1,0 +1,130 @@
+[{
+  "_id": {
+    "$oid": "668a58eaeb2b98dd37125cae"
+  },
+  "idZ": 1,
+  "ime": "Lazar",
+  "prezime": "Lazarevic",
+  "kor_ime": "laza",
+  "lozinka": "laza123",
+  "tip": "gost",
+  "mejl": "laza@mail.com",
+  "pol": "M",
+  "adresa": "Zvezdara",
+  "kontakt": "0656234480",
+  "brKartice": "06562344805645",
+  "profilna": "default.jpg",
+  "status": "na cekanju"
+},
+{
+  "_id": {
+    "$oid": "668a58eaeb2b98dd37125caf"
+  },
+  "idZ": 2,
+  "ime": "Maza",
+  "prezime": "Mazarevic",
+  "kor_ime": "maza",
+  "lozinka": "maza123",
+  "tip": "gost",
+  "mejl": "maza@mail.com",
+  "pol": "Z",
+  "adresa": "Dorcol",
+  "kontakt": "0656234480",
+  "brKartice": "841005622300",
+  "profilna": "default.jpg",
+  "status": "na cekanju"
+},
+{
+  "_id": {
+    "$oid": "668a58eaeb2b98dd37125cb0"
+  },
+  "idZ": 3,
+  "ime": "Boza",
+  "prezime": "Bozic",
+  "kor_ime": "boza",
+  "lozinka": "boza123",
+  "tip": "gost",
+  "mejl": "boza@mail.com",
+  "pol": "M",
+  "adresa": "Zvezdara 3",
+  "kontakt": "0656234480",
+  "brKartice": "841005622300",
+  "profilna": "default.jpg",
+  "status": "na cekanju"
+},
+{
+  "_id": {
+    "$oid": "668a60c0cf8339486bff955e"
+  },
+  "ime": "Zahtev1",
+  "prezime": "Zahtev1",
+  "kor_ime": "zahtev1",
+  "lozinka": "Zahtev1!",
+  "mejl": "zahtev1@gmail.com",
+  "tip": "gost",
+  "pol": "Z",
+  "adresa": "Diznilend",
+  "kontakt": "0656234480",
+  "brKartice": "1234567891234569",
+  "profilna": "default.jpg",
+  "status": "na cekanju",
+  "idZ": 4,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668a81a58628c992f6b2dc89"
+  },
+  "ime": "Zahtev2",
+  "prezime": "Zahtev2",
+  "kor_ime": "zahtev2",
+  "lozinka": "Zahtev2!",
+  "mejl": "zahtev2@gmail.com",
+  "tip": "gost",
+  "pol": "M",
+  "adresa": "Mirijevo",
+  "kontakt": "062475575",
+  "brKartice": "1234567891234569",
+  "profilna": "default.jpg",
+  "status": "na cekanju",
+  "idZ": 5,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668a81bc8628c992f6b2dc90"
+  },
+  "ime": "Zahtev3",
+  "prezime": "Zahtev3",
+  "kor_ime": "zahtev3",
+  "lozinka": "Zahtev2!",
+  "mejl": "zahtev3@gmail.com",
+  "tip": "gost",
+  "pol": "M",
+  "adresa": "Mirijevo",
+  "kontakt": "062475575",
+  "brKartice": "1234567891234569",
+  "profilna": "default.jpg",
+  "status": "odbijeno",
+  "idZ": 6,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668a81ce8628c992f6b2dc97"
+  },
+  "ime": "Zahtev4",
+  "prezime": "Zahtev4",
+  "kor_ime": "zahtev4",
+  "lozinka": "Zahtev2!",
+  "mejl": "zahtev4@gmail.com",
+  "tip": "gost",
+  "pol": "M",
+  "adresa": "Mirijevo",
+  "kontakt": "062475575",
+  "brKartice": "1234567891234569",
+  "profilna": "default.jpg",
+  "status": "odbijeno",
+  "idZ": 7,
+  "__v": 0
+}]

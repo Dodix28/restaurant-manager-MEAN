@@ -1,0 +1,72 @@
+<h4>Dodaj restoran</h4>
+
+Naziv restorana: <input type="text" name="naziv" [(ngModel)]="naziv"> <br/>
+Tip restorana:
+<select [(ngModel)]="tip">
+  <option value="kineski">Kineski</option>
+  <option value="indijski">Indijski</option>
+  <option value="japanski">Japanski</option>
+  <option value="domaca">Domaća kuhinja</option>
+  <option value="etno">Etno</option>
+  <option value="italijanski">Italijanski</option>
+  <option value="poslasticarnica">Poslastičarnica</option>
+</select>
+
+<br/>
+Adresa: <input type="text" name="adresa" [(ngModel)]="adresa"> <br/>
+Kontakt: <input type="text" name="kontakt" [(ngModel)]="kontakt"> <br/>
+Opis: <textarea rows="5" cols="30" maxlength="150" [(ngModel)]="opis"></textarea> <br/>
+
+
+
+<b>Ucitaj raspored za restoran:</b>
+<div>
+  <input type="file" (change)="onFileSelected($event)">
+  <button (click)="onUpload()">Upload</button>
+</div>
+<br/>
+<button (click)="dodajRestoran()">Dodaj restoran</button>
+{{porukaGreskeRaspored}} <br/>
+{{porukaGreske}}
+
+
+
+
+<hr/>
+<h6>Lista zahteva gostiju</h6>
+<table>
+  <tr>
+    <th>IME</th>
+    <th>PREZIME&nbsp;&nbsp;</th>
+    <th>KOR_IME&nbsp;&nbsp;</th>
+    <th>TIP</th>
+    <th>MEJL&nbsp;</th>
+    <th>POL &nbsp;&nbsp;</th>
+    <th>ADRESA&nbsp;</th>
+    <th>KONTAKT</th>
+    <th>KARTICA</th>
+    <th>STATUS</th>
+    <th>PRIHVATI</th>
+    <th>ODBIJ</th>
+  </tr>
+  <tr *ngFor="let z of zahtevi">
+    <td>{{z.ime}}</td>
+    <td>{{z.prezime}}</td>
+    <td>{{z.kor_ime}}</td>
+    <td>{{z.tip}}</td>
+    <td>{{z.mejl}}</td>
+    <td>{{z.pol}}</td>
+    <td>{{z.adresa}}</td>
+    <td>{{z.kontakt}}</td>
+    <td>{{z.brKartice}}</td>
+    <td>{{z.status}}</td>
+    <td><button (click)="prihvati(z)">Prihvati</button></td>
+    <td><button (click)="odbij(z)">Odbij</button></td>
+  </tr>
+</table>
+
+<hr/>
+
+<b>Dodaj konobara | Vidi bazu:</b> <br/>
+<button (click)="zaduzenja()">Klikni ovde</button>
+

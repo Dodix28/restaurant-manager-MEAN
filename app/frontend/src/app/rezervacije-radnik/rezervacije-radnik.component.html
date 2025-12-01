@@ -1,0 +1,48 @@
+<h3>Rezervacije na cekanju</h3>
+
+<table>
+  <tr>
+    <th>Datum</th>
+    <th>Vreme</th>
+    <th>Broj osoba</th>
+    <th>Opis</th>
+    <th>Restoran</th>
+    <th>Status</th>
+    <th>Odbij</th>
+    <th>Potvrdi</th>
+  </tr>
+  <tr *ngFor="let r of naCekanju">
+    <td>{{r.datum}}</td>
+    <td>{{r.vreme}}</td>
+    <td>{{r.brOsoba}}</td>
+    <td>{{r.opis}}</td>
+    <td>{{r.nazivR}}</td>
+    <td>{{r.status}}</td>
+    <td>
+      <div>
+        <input type="text" name="komentar" [(ngModel)]="r.porukaRadnika">
+        <button (click)="odbijRez(r)">Odbij</button>
+      </div>
+    </td>
+    <td>
+      <div>
+        <select [(ngModel)]="r.idSto">
+          <ng-container *ngFor="let sto of raspored.stolovi">
+          <option *ngIf=" sto.slobodan==true " [value]="sto.id">{{sto.id}}</option>
+          </ng-container>
+        </select>
+        <button (click)="potvrdiRez(r)">Potvrdi</button>
+      </div>
+    </td>
+    <!--<td><input type="text" name="komentar" [(ngModel)]="r.porukaRadnika"></td>
+    <td><button (click)="potvrdiRez(r.idR)">Potvrdi</button></td>
+    <td><button (click)="odbijRez(r)">Odbij</button></td>-->
+  </tr>
+</table>
+
+<br/>
+{{poruka}}
+
+<div style="width: 700px; height: 700px; border:1px solid black;">
+<router-outlet></router-outlet>
+</div>

@@ -1,0 +1,323 @@
+[{
+  "_id": {
+    "$oid": "66886df0eb2b98dd37125c39"
+  },
+  "kor_ime": "pera",
+  "idD": 1,
+  "idR": 1,
+  "nazivR": "Vouz-le-vouz",
+  "stavke": [
+    {
+      "idJ": 1,
+      "kolicina": 2
+    }
+  ],
+  "vremeDostave": "20-30",
+  "status": "prihvaceno"
+},
+{
+  "_id": {
+    "$oid": "66886df0eb2b98dd37125c3a"
+  },
+  "kor_ime": "dodi",
+  "idD": 2,
+  "idR": 2,
+  "nazivR": "Vapiano",
+  "stavke": [
+    {
+      "idJ": 3,
+      "kolicina": 5
+    },
+    {
+      "idJ": 4,
+      "kolicina": 1
+    },
+    {
+      "idJ": 1,
+      "kolicina": 5
+    }
+  ],
+  "vremeDostave": "20-30",
+  "status": "prihvaceno"
+},
+{
+  "_id": {
+    "$oid": "66886df0eb2b98dd37125c3b"
+  },
+  "kor_ime": "dodi",
+  "idD": 3,
+  "idR": 3,
+  "nazivR": "Piatakia",
+  "stavke": [
+    {
+      "idJ": 2,
+      "kolicina": 3
+    }
+  ],
+  "vremeDostave": "20-30",
+  "status": "prihvaceno"
+},
+{
+  "_id": {
+    "$oid": "66886f2341d050e05686e25f"
+  },
+  "idR": 3,
+  "nazivR": "Piatakia",
+  "status": "aktuelno",
+  "vremeDostave": "20-30",
+  "stavke": [],
+  "idD": 4,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66890c60859e1b92ac9fe141"
+  },
+  "idR": 1,
+  "nazivR": "Vouz-le-vouz",
+  "status": "aktuelno",
+  "vremeDostave": "60",
+  "stavke": [
+    {
+      "idJ": 3,
+      "kolicina": 5,
+      "naziv": "Teleca corba"
+    },
+    {
+      "idJ": 1,
+      "kolicina": 14,
+      "naziv": "Potaz"
+    },
+    {
+      "idJ": 2,
+      "kolicina": 9,
+      "naziv": "Torta"
+    },
+    {
+      "idJ": 4,
+      "kolicina": 1,
+      "naziv": "Karadjordjeva snicla"
+    }
+  ],
+  "idD": 5,
+  "kor_ime": "dodi",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668916194f81026842acff71"
+  },
+  "idR": 2,
+  "nazivR": "Vapiano",
+  "status": "prihvaceno",
+  "vremeDostave": "30-40",
+  "stavke": [
+    {
+      "idJ": 1,
+      "kolicina": 1,
+      "naziv": "Potaz"
+    },
+    {
+      "idJ": 3,
+      "kolicina": 2,
+      "naziv": "Teleca corba"
+    },
+    {
+      "idJ": 4,
+      "kolicina": 2,
+      "naziv": "Karadjordjeva snicla"
+    }
+  ],
+  "idD": 6,
+  "kor_ime": "dodi",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "668918334cddc6cdd44854d0"
+  },
+  "idR": 2,
+  "nazivR": "Vapiano",
+  "status": "odbijeno",
+  "vremeDostave": "20-30",
+  "stavke": [
+    {
+      "idJ": 1,
+      "kolicina": 2,
+      "naziv": "Potaz"
+    },
+    {
+      "idJ": 3,
+      "kolicina": 2,
+      "naziv": "Teleca corba"
+    },
+    {
+      "idJ": 4,
+      "kolicina": 2,
+      "naziv": "Karadjordjeva snicla"
+    }
+  ],
+  "idD": 7,
+  "kor_ime": "ana"
+},
+{
+  "_id": {
+    "$oid": "668918494cddc6cdd44854de"
+  },
+  "idR": 2,
+  "nazivR": "Vapiano",
+  "status": "na cekanju",
+  "vremeDostave": "30-40",
+  "stavke": [
+    {
+      "idJ": 1,
+      "kolicina": 1,
+      "naziv": "Potaz"
+    }
+  ],
+  "idD": 8,
+  "kor_ime": "ana"
+},
+{
+  "_id": {
+    "$oid": "6689d6ca9aedaf8a3224c0bd"
+  },
+  "idR": 2,
+  "nazivR": "Vapiano",
+  "status": "na cekanju",
+  "vremeDostave": "",
+  "stavke": [
+    {
+      "idJ": 3,
+      "kolicina": 5,
+      "naziv": "Teleca corba"
+    },
+    {
+      "idJ": 1,
+      "kolicina": 17,
+      "naziv": "Potaz"
+    },
+    {
+      "idJ": 2,
+      "kolicina": 9,
+      "naziv": "Torta"
+    },
+    {
+      "idJ": 4,
+      "kolicina": 1,
+      "naziv": "Karadjordjeva snicla"
+    }
+  ],
+  "idD": 9,
+  "kor_ime": "dodi"
+},
+{
+  "_id": {
+    "$oid": "6689d6fb9aedaf8a3224c0d4"
+  },
+  "idR": 2,
+  "nazivR": "Vapiano",
+  "status": "na cekanju",
+  "vremeDostave": "",
+  "stavke": [
+    {
+      "idJ": 1,
+      "kolicina": 4,
+      "naziv": "Potaz"
+    }
+  ],
+  "idD": 10,
+  "kor_ime": "dodi"
+},
+{
+  "_id": {
+    "$oid": "6689d9d39aedaf8a3224c141"
+  },
+  "idR": 1,
+  "nazivR": "Vouz-le-vouz",
+  "status": "prihvaceno",
+  "vremeDostave": "",
+  "stavke": [
+    {
+      "idJ": 1,
+      "kolicina": 6,
+      "naziv": "Potaz"
+    }
+  ],
+  "idD": 11,
+  "kor_ime": "dodi"
+},
+{
+  "_id": {
+    "$oid": "6689fd8c2ac14faee38d227c"
+  },
+  "idR": 2,
+  "nazivR": "Vapiano",
+  "status": "na cekanju",
+  "vremeDostave": "",
+  "stavke": [
+    {
+      "idJ": 1,
+      "kolicina": null,
+      "naziv": "Potaz"
+    },
+    {
+      "idJ": 3,
+      "kolicina": null,
+      "naziv": "Teleca corba"
+    },
+    {
+      "idJ": 4,
+      "kolicina": null,
+      "naziv": "Karadjordjeva snicla"
+    }
+  ],
+  "idD": 12,
+  "kor_ime": "dodi"
+},
+{
+  "_id": {
+    "$oid": "6689fdc22ac14faee38d2294"
+  },
+  "idR": 2,
+  "nazivR": "Vapiano",
+  "status": "na cekanju",
+  "vremeDostave": "",
+  "stavke": [
+    {
+      "idJ": 1,
+      "kolicina": 4,
+      "naziv": "Potaz"
+    },
+    {
+      "idJ": 3,
+      "kolicina": 2,
+      "naziv": "Teleca corba"
+    }
+  ],
+  "idD": 13,
+  "kor_ime": "dodi"
+},
+{
+  "_id": {
+    "$oid": "668a03942ac14faee38d22bb"
+  },
+  "idR": 2,
+  "nazivR": "Vapiano",
+  "status": "na cekanju",
+  "vremeDostave": "",
+  "stavke": [
+    {
+      "idJ": 1,
+      "kolicina": 1,
+      "naziv": "Potaz"
+    },
+    {
+      "idJ": 4,
+      "kolicina": 2,
+      "naziv": "Karadjordjeva snicla"
+    }
+  ],
+  "idD": 14,
+  "kor_ime": "dodi"
+}]

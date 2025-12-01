@@ -1,0 +1,101 @@
+<b>Dodaj konobara</b>
+<form>
+  Korisnicko ime:   <input type='text' name='kor_ime' [(ngModel)]='kor_ime_reg'> <br/>
+  Lozinka:  <input type='password' name='lozinka' [(ngModel)]='lozinka_reg'> <br/>
+  Mejl:  <input type='text' name='mejl' [(ngModel)]='mejl_reg'> <br/>
+  Ime:  <input type='text' name='ime' [(ngModel)]='ime_reg'> <br/>
+  Prezime:  <input type='text' name='prezime' [(ngModel)]='prezime_reg'> <br/>
+  Pol:
+  <select [(ngModel)]="pol_reg" name="pol">
+    <option value="M" >M</option>
+    <option value="Z" >Z</option>
+  </select> <br/>
+  Adresa:  <input type='text' name='adresa' [(ngModel)]='adresa_reg'> <br/>
+  Kontakt telefon:  <input type='text' name='kontakt' [(ngModel)]='kontakt_reg'> <br/>
+  Profinla fotografija: <input type="file" id="image" (change)="selectFile($event)" name="image"  accept=".png, .jpg"> <br/>
+  <button (click)='dodajKonobara()'> Dodaj konobara</button> <br/>
+  </form>
+
+  <hr/>
+  <h4>Svi Konobari</h4>
+
+  <table>
+    <tr>
+      <th>Ime</th>
+      <th>Prezime</th>
+      <th>Korisnicko ime</th>
+      <th>Mejl</th>
+      <th>Pol</th>
+      <th>Kontakt</th>
+      <th>Adresa</th>
+      <th>Slika</th>
+    </tr>
+    <tr *ngFor="let k of sviKonobari">
+      <td>{{k.ime}}</td>
+      <td>{{k.prezime}}</td>
+      <td>{{k.kor_ime}}</td>
+      <td>{{k.mejl}}</td>
+      <td>{{k.pol}}</td>
+      <td>{{k.kontakt}}</td>
+      <td>{{k.adresa}}</td>
+      <td><img [src]=" 'http://localhost:4000/uploads/' + k.profilna" height="100px" width="100px" alt="Profilna"></td>
+    </tr>
+  </table>
+  <br/>
+  <br/>
+  <br/>
+  <h4>Svi Gosti</h4>
+
+  <table>
+    <tr>
+      <th>Ime</th>
+      <th>Prezime</th>
+      <th>Korisnicko ime</th>
+      <th>Mejl</th>
+      <th>Pol</th>
+      <th>Kontakt</th>
+      <th>Adresa</th>
+      <th>Slika</th>
+    </tr>
+    <tr *ngFor="let g of sviGosti">
+      <td>{{g.ime}}</td>
+      <td>{{g.prezime}}</td>
+      <td>{{g.kor_ime}}</td>
+      <td>{{g.mejl}}</td>
+      <td>{{g.pol}}</td>
+      <td>{{g.kontakt}}</td>
+      <td>{{g.adresa}}</td>
+      <td><img [src]=" 'http://localhost:4000/uploads/' +g.profilna" height="100px" width="100px" alt="Profilna"></td>
+    </tr>
+  </table>
+
+  <br/>
+  <br/>
+  <br/>
+  <h4>Svi restorani</h4>
+
+  <table>
+    <tr>
+      <th>id</th>
+      <th>Naziv</th>
+      <th>Adresa</th>
+      <th>Tip</th>
+      <th>Opis</th>
+      <th>Kontakt</th>
+      <th>Konobari</th>
+    </tr>
+    <tr *ngFor="let g of sviRestorani">
+      <td>{{g.idR}}</td>
+      <td>{{g.naziv}}</td>
+      <td>{{g.adresa}}</td>
+      <td>{{g.tip}}</td>
+      <td>{{g.opis}}</td>
+      <td>{{g.kontakt}}</td>
+      <td>
+        <ul>
+          <li *ngFor="let konobar of g.konobari">{{konobar.ime}} {{konobar.prezime}}</li>
+        </ul>
+      </td>
+
+    </tr>
+  </table>

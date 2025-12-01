@@ -1,0 +1,26 @@
+[{
+  "_id": {
+    "$oid": "66887ed6eb2b98dd37125c43"
+  },
+  "kor_ime": "nina",
+  "stavke": [
+    {
+      "idJ": 1,
+      "kolicina": 2,
+      "naziv": "Potaz"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "66887ed6eb2b98dd37125c45"
+  },
+  "kor_ime": "mina",
+  "stavke": [
+    {
+      "idJ": 2,
+      "kolicina": 3,
+      "naziv": "Torta"
+    }
+  ]
+}]
